@@ -1,3 +1,5 @@
+#troubleshooting tool that reads 2 pcap files and check if packets were dropped and how much latency the networking device introduced processing thes packets 
+
 from scapy.all import rdpcap, IP, UDP, TCP
 from datetime import datetime, timezone
 import sys
