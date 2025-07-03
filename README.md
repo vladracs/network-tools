@@ -1,6 +1,6 @@
 # network-tools
 
-PDIFF-PROC example
+<pre> ```PDIFF-PROC example
 pdiff-proc.py voice3a_strip.pcap voice4a_strip.pcap 3 4
 Read 765 packets from port 3, 765 from port 4.
 
@@ -48,3 +48,4 @@ Top 10 highest latency port 4 → 3:
   2025-07-02 11:18:17.885 UTC (#338) → 2025-07-02 11:18:17.889 UTC (#338) latency: 3.903 ms
   2025-07-02 11:18:17.921 UTC (#341) → 2025-07-02 11:18:17.924 UTC (#342) latency: 3.323 ms
 Average latency port 4 → 3: 0.023 ms
+ ``` </pre>
